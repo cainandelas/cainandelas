@@ -9,7 +9,7 @@
 
 	<body>
 		<img src="gordao.png">
-		<div>
+		<div class="principal">
 			<h1>Sobre a lanchonete Gordão lanches</h1>
 
 	 		<p>Localizado no bairro primavera, a lanchonete <strong>Gordão Lanches</strong> traz para o mercado o melhor hamburguer e petiscos. Fundado em 2022, a lanchonete do Gordão é destaque na cidade e conquista clientes dia a dia.</p>
@@ -30,6 +30,7 @@
 			<li class="itens"> *Localização</li>
 			<li class="itens"> *Profissionais Qualificados</li>
 				</ul>
+				<img src="beneficio.png" class="imagembeneficio">
 			</div>
 		</body>
 	</html>
@@ -38,7 +39,11 @@
 	
 	
 	
-	body {
+body {
+	
+}
+
+.principal {
 	background: #939292
 }
 
@@ -55,7 +60,7 @@ p{
 }
 
 em  strong {
-		color: black
+		color: darkred;
 }
 
 .itens {
@@ -64,4 +69,19 @@ em  strong {
 
 .Beneficios {
 	background: #C5C5C4
+}
+
+h2 {
+	text-align: center;
+}
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+
+.imagembeneficio {
+	width: 30%;
 }
