@@ -38,50 +38,102 @@
 	
 	
 	
-	
-body {
-	
+<!DOCTYPE html>
+ <html>
+ 	<head>
+ 		<meta charset="utf-8">
+ 		<title>Produtos - Gordão Lanches</title>
+ 		<link rel="stylesheet" href="reset.css">
+ 		<link rel="stylesheet" href="produtos.css">
+ 	</head>
+ 	<body>
+ 		<header>
+ 			<div class="caixa">
+ 			<h1><img src="gordao.png"></h1>
+
+ 			<nav>
+ 			<ul>
+ 					<li><a href="gordao lanches.html">Home</a></li>
+ 					<li><a href="Produtos.html">Produtos</a></li>
+ 					<li><a href="https://www.google.com">Contatos</a></li> 
+			</ul>
+ 			</nav>
+ 		</div>
+ 			</header>
+
+ 			<main>
+ 				<ul class="produtos">
+
+ 				<li>
+ 					<h2>XGordão</h2>
+ 					<img src="XGordão.png">
+ 					<p class="produto-descricao">Maior lanche da cidade, o mais preferido</p>
+ 					<p class="produto-preco">R$35,00</p>
+ 				</li>
+ 				<li>
+ 					<h2>XLanches</h2>
+ 					<img src="XLanches.png">
+ 					<p class="produto-descricao">Lanche saboroso, com muito bacon e maionese</p>
+ 					<p class="produto-preco">R$23,00</p>
+ 				</li>
+ 				<li>
+ 					<h2>XTalarico</h2>
+ 					<img src="XTalarico.png">
+ 					<p class="produto-descricao">Lanche prensado, com muuuita salada</p>
+ 					<p class="produto-preco">R$15,00</p>
+ 				</li>
+ 				</ul>
+ 			</main>
+ 		</body>
+	 </html>
+
+header {
+	background: #BBBBBB;
 }
 
-.principal {
-	background: #939292
+.caixa {
+	position: relative;
+	width: 940px;
+ 	margin: 0 auto;
 }
 
-h1 {
-		text-align: center
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
 }
 
-p{
-		text-align: center;
+nav a {
+	text-transform: uppercase;
+	color: #FE3408:;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
 }
 
-#missao {
-	font-size: 20px
+.produtos {
+	margin: 0 auto;
 }
 
-em  strong {
-		color: darkred;
-}
-
-.itens {
-	font-style: italic;
-}
-
-.Beneficios {
-	background: #C5C5C4
-}
-
-h2 {
-	text-align: center;
-}
-ul {
+.produtos li {
 	display: inline-block;
+	text-align: center;
+	width: 30%;
 	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
+	background: #CCCCCC;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+}
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
 }
 
+.produto-descricao {
+	font-size: 18px;
 
-.imagembeneficio {
-	width: 30%;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
 }
